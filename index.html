@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea house tailwindcss and daisyui</title>
+    <!-- tailwindcss and daisyui cdn links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome kit -->
+    <script
+      src="https://kit.fontawesome.com/eb9db9ab6a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- custom css -->
+    <style>
+      .manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <!-- banner section -->
+      <section
+        class="max-w-screen-xl mx-auto manrope flex flex-col gap-5 sm:gap-0 lg:items-center md:flex-row px-5 pt-4 md:pt-10"
+      >
+        <!-- banner contents -->
+        <div class="flex-1">
+          <h1 class="text-4xl lg:text-7xl font-extrabold">
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p class="lg:w-3/4 mt-2 mb-5">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00]">
+            Explore More <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+        <!-- banner image -->
+        <div class="flex-1 relative">
+          <img src="./images/banner.png" alt="banner" />
+          <!-- trust pilot rating div -->
+          <div
+            class="flex gap-3 shadow-xl bg-white rounded-md p-3 items-center w-60 absolute bottom-0 md:bottom-5 left-12 md:left-28"
+          >
+            <i class="fa-solid fa-star text-4xl text-amber-400"></i>
+            <div>
+              <h3 class="font-bold text-xl">5.00</h3>
+              <p>Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- main section -->
+    <main></main>
+    <!-- footer section -->
+    <footer></footer>
+  </body>
+</html>
